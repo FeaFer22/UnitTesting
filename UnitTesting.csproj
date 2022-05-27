@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="UnitTesting.MSTest.Tests\**" />
+    <Compile Remove="UnitTesting.NUnit.Tests\**" />
+    <Compile Remove="UnitTesting.xUnit.Tests\**" />
+    <EmbeddedResource Remove="UnitTesting.MSTest.Tests\**" />
+    <EmbeddedResource Remove="UnitTesting.NUnit.Tests\**" />
+    <EmbeddedResource Remove="UnitTesting.xUnit.Tests\**" />
+    <None Remove="UnitTesting.MSTest.Tests\**" />
+    <None Remove="UnitTesting.NUnit.Tests\**" />
+    <None Remove="UnitTesting.xUnit.Tests\**" />
+  </ItemGroup>
+
+</Project>
