@@ -9,9 +9,9 @@ namespace UnitTesting.MSTest.Tests
         [TestMethod]
         public void Sum_20and30_50returned()
         {
-            x = 8;
-            y = 6;
-            Expected = 14;
+            x = 20;
+            y = 30;
+            Expected = 50;
 
             UnitTesting unitTesting = new UnitTesting();
             Actual = unitTesting.Sum(x, y);
